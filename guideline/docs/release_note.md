@@ -73,6 +73,44 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 ## [1.0.16] - 2024-05-13
 ### new draw.io lib clustering
 
+## [1.0.17] - 2024-05-14
+### new draw.io all service lib, size s-l
+
+## [1.0.18] - 2024-05-25
+### minor fixes
+
+## [1.0.19] - 2024-05-26
+### fix wrong cis icon and new cid icon 
+
+## [1.0.20] - 2024-05-27
+### css update
+### fix buttons
+### update mobile footer header 
+### update SD for BWZ
+
+## [1.0.21] - 2024-05-31
+### fix typo and missing links
+
+## [1.0.22] - 2024-05-31
+### fix typo and missing links
+
+## [1.0.23] - 2024-06-04
+### adj. BTP Solution Diagrams update
+
+## [1.0.24] - 2024-06-04
+### adj. BTP Solution Diagrams update
+
+## [1.0.25] - 2024-06-26
+### Adding new BTP service icons
+
+## [1.0.26] - 2024-07-10
+### Uopdating labels for all BTP service icons
+
+## [1.0.27] - 2024-07-11
+### Updating BTP Solution Diagram examples
+
+
+
 
 
 

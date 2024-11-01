@@ -171,6 +171,14 @@ margin: 6rem 0;
 
 }
 
+/** In mobile view, reduce the padding */
+@media screen and (max-width: 996px) {
+  .hero_banner {
+    padding: 2rem;
+    background-color: #FFFFFF;
+  }
+}
+
 .hero_image{
   margin: -15rem 44rem;
   width: 500px;
@@ -203,9 +211,12 @@ margin: 6rem 0;
 }
 
 .button_filled_overview {
-  display: inline-block;
+  /*display: inline-block;*/
+  display: flex;
+  flex-direction: row;
+
   padding: 4px 25px;
-  padding-bottom: 30px;
+  padding-bottom: 4px;
   padding-top: 6px;
   width: 160px;
   height: 35px;
@@ -325,10 +336,10 @@ margin: 6rem 0;
 
 .button_filled_guideline {
   display: inline-block;
-  padding: 4px 21px;
+  padding: 4px 18px;
   padding-bottom: 30px;
   padding-top: 6px;
-  width: 166px;
+  width: 160px;
   height: 35px;
   background-color: #0064D9;
   border: 1px solid #BCC3CA;
@@ -354,10 +365,10 @@ margin: 6rem 0;
 
 .button_clean_guideline {
   display: inline-block;
-  padding: 4px 24px;
+  padding: 4px 18px;
   padding-bottom: 30px;
   padding-top: 6px;
-  width: 164px;
+  width: 160px;
   height: 35px;
   background-color: #FFFFFF;
   border: 1px solid #BCC3CA;
@@ -382,11 +393,12 @@ margin: 6rem 0;
 }
 
 .button_filled_libs {
+  text-align: center;
   display: inline-block;
   padding: 4px 18px;
   padding-bottom: 30px;
   padding-top: 6px;
-  width: 168px;
+  width: 160px;
   height: 35px;
   background-color: #0057d2;
   border: 1px solid #0057d2;
@@ -410,13 +422,43 @@ margin: 6rem 0;
   
 }
 
-
-.button_clean_libs_ppt {
+.button_filled_libs_lucid{
+  text-align: center;
   display: inline-block;
   padding: 4px 18px;
   padding-bottom: 30px;
   padding-top: 6px;
-  width: 170px;
+  width: 160px;
+  height: 35px;
+  background-color: #FFFFFF;
+  border: 1px solid #BCC3CA;
+  border-radius: 8px;
+  color: #0064D9;
+  text-decoration: none;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: '72Bold';
+  
+}
+
+.button_filled_libs_lucid:hover{
+  color: #FFFFFF;
+  text-decoration: none;
+  background-color: #002a86;
+  border: 1px solid #002a86;
+  
+}
+
+.button_clean_libs_ppt {
+  text-align: center;
+  display: inline-block;
+  padding: 4px 18px;
+  padding-bottom: 30px;
+  padding-top: 6px;
+  width: 160px;
   height: 35px;
   background-color: #FFFFFF;
   border: 1px solid #BCC3CA;
@@ -619,6 +661,13 @@ margin: 6rem 0;
 
 }
 
+@media screen and (max-width: 996px) {
+  .footer {
+    
+    background-color: #FFFFFF;
+  }
+}
+
 
 .footer__link-item:hover{
 
@@ -780,28 +829,42 @@ padding-top: 25px;
 .stc_l0{
   width: 500px;
   height: 300px;
-  margin-bottom: 200px;
+  margin-bottom: 100px;
   padding-top: 10px;
 }
 
 .stc_l1{
   width: 750px;
   height: 450px;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
   padding-top: 20px;
 }
 
 .wz_l2{
   width: 750px;
   height: 450px;
-  margin-bottom: 120px;
+  margin-bottom: 150px;
   padding-top: 0px;
 }
 
 .cis_l2{
   width: 750px;
   height: 450px;
-  margin-bottom: 80px !important;
+  margin-bottom: 150px !important;
+  padding-top: 0px;
+}
+
+.pls_l2{
+  width: 750px;
+  height: 450px;
+  margin-bottom: 800px !important;
+  padding-top: 0px;
+}
+
+.dg_l2{
+  width: 750px;
+  height: 450px;
+  margin-bottom: 150px !important;
   padding-top: 0px;
 }
 

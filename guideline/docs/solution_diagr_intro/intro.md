@@ -16,7 +16,17 @@ BTP Solution Diagrams give you a quick and effective understanding of SAP Busine
 
 - Consult the SAP BTP Solution Diagram guideline. It is based on the new Horizon 2023 design principles and gives you the basic information you need to start using the templates to build your solution diagram.
 
--	Download the [draw.io libraries](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io). 
+-	Download the [draw.io libraries](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io) which we provide in different sizes (S, M, L). We also provide the BTP service icons in different categories:
+  -  [Foundational icons](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io/20-02-00-sap-btp-service-icons-foundational-set)
+  - [Integration suite icons](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io/20-02-01-sap-btp-service-icons-integration-suite-set)
+  - [Application Development & Automation](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io/20-02-02-sap-btp-service-icons-app-dev-automation-set)
+  - [Data & Analytics](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io/20-02-04-sap-btp-service-icons-data-analytics-set)
+  - [AI icons](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/shape-libraries-and-editable-presets/draw.io/20-02-05-sap-btp-service-icons-ai-set)
+
+And many more libraries for different usage in your **BTP Solution Diagram*!
+
+
+- For the [Lucidchart](https://lucid.app/marketplace#/listing/8e327624-ad9a-4ccf-b74c-325bb907a0ef) integration please check the offical documentation how to add the **SAP Business Technology Platform Service Icons**
 
 - Consult the Visual Design Guideline topic available in the content list panel to the left of this page to understand the different diagram elements available in the repository. You can also get it here: [PDF](https://d.dam.sap.com/a/UbBJrVh/SAP-BTP-solution-diagram-design-guideline-v1-public.pdf?rc=10)
 
@@ -24,7 +34,7 @@ BTP Solution Diagrams give you a quick and effective understanding of SAP Busine
 
 **If you want to have a quick start we also provide a starter kit for **draw.io** [here](https://github.com/SAP/btp-solution-diagrams/tree/main/assets/all-in-one-starter-kits)**
 
-## Installing the diagram editor - the right tool for the right job
+## Installing the draw.io diagram editor - the right tool for the right job
 
 1.	Install the drawing software draw.io on your local machine. You can get your local draw.io copy at GitHub [repository](https://github.com/jgraph/drawio-desktop/releases).
 

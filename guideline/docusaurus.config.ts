@@ -29,17 +29,17 @@ const config: Config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  plugins: [
+   /*plugins: [
     [
-      require.resolve("@easyops-cn/docusaurus-search-local"),
+     require.resolve("@easyops-cn/docusaurus-search-local"),
       {
         hashed: true,
         indexDocs: true,
         indexPages: true,
         indexBlog: false
-      }
+     
     ],
-  ],
+  ], }*/
   presets: [
     [
       'classic',
@@ -120,6 +120,10 @@ const config: Config = {
               label: 'FAQ',
               to: '/faq',
             },
+            {
+              label: 'Legal Disclosure',
+              href: 'https://www.sap.com/corporate/en/legal/impressum.html'
+            }
           ],
         },
         {
